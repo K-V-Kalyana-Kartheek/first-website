@@ -1,0 +1,118 @@
+*{
+margin:0px;
+padding:0;
+
+
+
+}
+
+.container{
+
+width:auto;
+height:100vh;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://wallpapercave.com/dwp1x/wp7718202.jpg");
+background-position:center;
+background-size:cover;
+}
+
+.navbar{
+
+height:12%;
+display:flex;
+align-items:center;
+}
+
+.row{
+display:flex;
+height:88%;
+align-items:center;
+
+}
+
+.col{
+flex-basis:50%;
+}
+
+h1{
+ color:white;
+font-size:70px;
+
+}
+p{
+color:#fff;
+font-size:10px;
+line-height:25px;
+  
+
+
+}
+
+
+.card{
+width:350px;
+height:280px;
+display:inline-block;
+border-radius:10px;
+padding:20px 25px;
+box-sizing:border-box;
+cursor:pointer;
+margin:10px 10px;
+background-position:center;
+background-size:cover;
+transition:transform 0.5s;
+}
+.card1{
+
+ 	background-image:url(Monstad.jpg)
+}
+.card2{
+
+ 	background-image:url(liyue.png)
+}
+
+.card3{
+
+ 	background-image:url(inazuma.jpg)
+}
+
+.card4{
+
+ 	background-image:url(sumeru.jpg)
+}
+
+.card:hover{
+transform:translateY(-10px);
+
+}
+h3{
+font-size:30px;
+color:White;
+text-shadow:0 0 5px #999;
+}
+
+.card p{
+
+font-size:11px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
