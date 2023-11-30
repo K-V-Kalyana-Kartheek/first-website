@@ -4,24 +4,26 @@
 <head>
     <title>Form </title>
     <style>
-*{
-background-color:transparent;
+        * {
+            background-color: transparent;
 
 
-}
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://images8.alphacoders.com/116/thumbbig-1169180.webp");
-    background-size: cover;
-    background-position: center;
+        }
 
-display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://images8.alphacoders.com/116/thumbbig-1169180.webp");
+            background-size: cover;
+            background-position: center;
 
-}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: auto;
@@ -30,10 +32,10 @@ display: flex;
         .form-container {
             width: 300px;
             padding: 20px;
-            font-color:solid white;
+            font-color: solid white;
             border-radius: 5px;
-	margin:auto;  
- background-color:transparent;
+            margin: auto;
+            background-color: transparent;
 
 
         }
@@ -46,212 +48,213 @@ display: flex;
             display: block;
             font-weight: bold;
             margin-bottom: 5px;
-		color: white;
+            color: white;
         }
 
         .form-input {
             width: 100%;
             padding: 5px;
-            border: 0;outline:none;
+            border: 0;
+            outline: none;
             border-radius: 3px;
-margin-bottom:5px;border-bottom:1px solid white;
-color:#fff;
+            margin-bottom: 5px;
+            border-bottom: 1px solid white;
+            color: #fff;
         }
 
         .form-submit {
-            height:21px;
-width:50px;
-background-color:transparent;
+            height: 21px;
+            width: 50px;
+            background-color: transparent;
 
-border:none;
-border-radius:10px;
-margin-top:10px;
-color:red;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            color: red;
             cursor: pointer;
         }
 
 
 
 
-        .form-submit:hover{
+        .form-submit:hover {
 
-animation:glow 4s infinite;
-}
-
-
+            animation: glow 4s infinite;
+        }
 
 
-@keyframes glow{
 
 
-100%{
-box-shadow:0 0 5px red,0 0 25px red,0 0 50px red,0 0 100px red,0 0 200px red,0 0 300px red; 
-
-	}
+        @keyframes glow {
 
 
-}
+            100% {
+                box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red, 0 0 300px red;
+
+            }
 
 
-.form-submitg {
-            height:21px;
-width:50px;
-background-color:transparent;
+        }
 
-border:none;
-border-radius:10px;
-margin-top:10px;
-color:#58FF5C;
+
+        .form-submitg {
+            height: 21px;
+            width: 50px;
+            background-color: transparent;
+
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            color: #58FF5C;
             cursor: pointer;
         }
 
-        .form-submitg:hover{
+        .form-submitg:hover {
 
-animation:glowg 2s infinite;
-}
-
-
-
-
-@keyframes glowg{
-
-
-100%{
-box-shadow:0 0 5px green,0 0 25px green,0 0 50px green,0 0 100px green,0 0 200px green; 
-
-	}
-
-}
+            animation: glowg 2s infinite;
+        }
 
 
 
 
+        @keyframes glowg {
 
 
+            100% {
+                box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green, 0 0 200px green;
 
+            }
 
-
-
-
+        }
     </style>
 </head>
 
-<body >
-<div class="banner">
-    <div class="form-container" style="">
-        <h2 style="color:#fff;text-align:center; margin-bottom:30px">Sign Up</h2>
-        <form action="/submit" method="post">
+<body>
+    <div class="banner">
+        <div class="form-container" style="">
+            <h2 style="color:#fff;text-align:center; margin-bottom:30px">Sign Up</h2>
+            <form action="/submit" method="post">
 
 
 
-            <div class="form-group">
-                <table >
+                <div class="form-group">
+                    <table>
 
-                    <th  style="text-align:left"> <label for="fname" class="form-label">First Name:</label></th>
-                    <th style="width:10px"> </th>
+                        <th style="text-align:left"> <label for="fname" class="form-label">First Name:</label></th>
+                        <th style="width:10px"> </th>
 
-                    <th style="text-align:left"> <label for="lname" class="form-label">Last Name:</label></th>
+                        <th style="text-align:left"> <label for="lname" class="form-label">Last Name:</label></th>
 
-                    <tr>
+                        <tr>
 
-                        <td>
-                            <input type="text" id="fname" name="fname" class="form-input" placeholder="First Name" required>
-                        </td>
+                            <td>
+                                <input type="text" id="fname" name="fname" class="form-input" placeholder="First Name"
+                                    required>
+                            </td>
 
-                        <td></td>
+                            <td></td>
 
-                        <td>
-                            <input type="text" id="fname" name="fname" class="form-input" placeholder="Last Name" required>
-                        </td>
-                    </tr>
-                </table>
+                            <td>
+                                <input type="text" id="fname" name="fname" class="form-input" placeholder="Last Name"
+                                    required>
+                            </td>
+                        </tr>
+                    </table>
 
-            </div>
-
-
-
-            <div class="form-group">
-                <label for="email" class="form-label">Email:</label>
-                <input  type="email" id="email" name="email" class="form-input" required><br>
-                <label for="password1" class="form-label">Password:</label>
-                <input style="margin-bottom:5px" type="password" id="pas" name="pas" class="form-input" required><br>
-            </div>
+                </div>
 
 
 
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-input" required><br>
+                    <label for="password1" class="form-label">Password:</label>
+                    <input style="margin-bottom:5px" type="password" id="pas" name="pas" class="form-input"
+                        required><br>
+                </div>
 
 
-            <div class="form-group">
 
 
-                <table>
-                    <th style="text-align:left">
-                        <label for="dob" class="form-label">Date of Birth:</label>
 
-                    </th>
-                    <th style="width:10px"> </th><th style="width:10px"> </th>
-
-                    <th style="text-align:left">
-                        <label for="gender" class="form-label">Gender:</label>
-                    </th>
-
-                    <tr>
-                        <td> <input style="color:white;" type="date" id="dob" name="dob" class="form-input   " required placeholder="YYYY-MM-DD"></td>
-
-                        <td></td> <td></td>
-                        <td>
-                            <select style="color:white" id="gender" onchange="showStatus()" class="form-input">
-                                <option value="" disabled selected>Not Selected</option>
-                                <option style="color:black;" value="male">Male</option>
-                                <option style="color:black;"value="female">Female</option>
-                                <option style="color:black;" value="other">Other</option>
-                            </select>
+                <div class="form-group">
 
 
-                        </td>
-                    </tr>
-                </table>
+                    <table>
+                        <th style="text-align:left">
+                            <label for="dob" class="form-label">Date of Birth:</label>
+
+                        </th>
+                        <th style="width:10px"> </th>
+                        <th style="width:10px"> </th>
+
+                        <th style="text-align:left">
+                            <label for="gender" class="form-label">Gender:</label>
+                        </th>
+
+                        <tr>
+                            <td> <input style="color:white;" type="date" id="dob" name="dob" class="form-input   "
+                                    required placeholder="YYYY-MM-DD"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <select style="color:white" id="gender" onchange="showStatus()" class="form-input">
+                                    <option value="" disabled selected>Not Selected</option>
+                                    <option style="color:black;" value="male">Male</option>
+                                    <option style="color:black;" value="female">Female</option>
+                                    <option style="color:black;" value="other">Other</option>
+                                </select>
 
 
-            </div>
+                            </td>
+                        </tr>
+                    </table>
 
-            <div>
-                <label style="color:white" style="font-weight: bold;
+
+                </div>
+
+                <div>
+                    <label style="color:white" style="font-weight: bold;
 " for="country">Country:</label>
-                
-              <input style="color:white;border:none;" type="text" id="country" name="country" value="India" readonly=""><br><br>
-                <label style="color:white" Style="            font-weight: bold;
+
+                    <input style="color:white;border:none;" type="text" id="country" name="country" value="India"
+                        readonly=""><br><br>
+                    <label style="color:white" Style="            font-weight: bold;
 " for="City">Choose a city:</label>
 
-                <select style="color:white;border:none;" name="city" id="city"  style="width:100px;border: 0;outline:none;">
-                    <option style="color:black;" value="Hyd">Hyd</option>
-                    <option style="color:black;" value="Delhi">Delhi</option>
-                    <option style="color:black;" value="Mumbai">Mumbai</option>
-                    <option style="color:black;" value="Chennai">Chennai</option>
-                </select>
+                    <select style="color:white;border:none;" name="city" id="city"
+                        style="width:100px;border: 0;outline:none;">
+                        <option style="color:black;" value="Hyd">Hyd</option>
+                        <option style="color:black;" value="Delhi">Delhi</option>
+                        <option style="color:black;" value="Mumbai">Mumbai</option>
+                        <option style="color:black;" value="Chennai">Chennai</option>
+                    </select>
 
 
 
 
 
-            </div><br>
+                </div><br>
 
 
 
 
-            <div class="form-group">
-                <label for="message" class="form-label">About Me:</label>
-                <textarea style="margin-bottom:5px;border:1px solid white;" id="message" name="message" class="form-input" rows="4" required></textarea>
-            </div>
-            <table>
-                <th> <button type="submit" class="form-submitg">Submit</button></th>
-                <th> <button type="reset" class="form-submit">Reset</button>
-                    <th />
-        </form>
+                <div class="form-group">
+                    <label for="message" class="form-label">About Me:</label>
+                    <textarea style="margin-bottom:5px;border:1px solid white;" id="message" name="message"
+                        class="form-input" rows="4" required></textarea>
+                </div>
+                <table>
+                    <th> <button type="submit" class="form-submitg">Submit</button></th>
+                    <th> <button type="reset" class="form-submit">Reset</button>
+                        <th />
+            </form>
+        </div>
+        <a style="width:100%;position:right;font-size:10px;color:#fff"
+            href="C:\Training\HTML\Asg 1\signin2.html">Already have an account.</a>
+
     </div>
-<a style="width:100%;position:right;font-size:10px;color:#fff" href="C:\Training\HTML\Asg 1\signin2.html">Already have an account.</a>
-
-</div>
 
 
     <script>
